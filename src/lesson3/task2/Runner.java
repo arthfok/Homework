@@ -34,7 +34,7 @@ public class Runner {
 
         ArrayList<String> avgList = new ArrayList<>();
 
-        for(String s : list) {
+        for (String s : list) {
             if (s.length() < findAverageLength()) {
                 avgList.add(s + " длина:" + s.length());
             }
